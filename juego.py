@@ -1,12 +1,8 @@
-"""
-Módulo que agrupa las funciones que describen la lógica interna del juego
-"""
-
-from entrada import (
+from entrada import ( 
     pedir_entrada_numero,
     pedir_entrada_numero_delimitado,
     pedir_entrada_si_o_no,
-)
+    )
 
 
 def jugar_una_vez(numero, minimo, maximo):
@@ -46,8 +42,8 @@ def jugar_una_partida(numero, minimo, maximo):
 
 def decidir_limites():
     while True:
-        minimo = pedir_entrada_numero("Quelle est la borne minimale ?")
-        maximo = pedir_entrada_numero("Quelle est la borne maximale ?")
+        minimo = pedir_entrada_numero("Cual es el limite minimo ?")
+        maximo = pedir_entrada_numero("Cual es el limite maximo ?")
         if maximo > minimo:
             return minimo, maximo
 
@@ -60,4 +56,3 @@ def jugar():
         if not pedir_entrada_si_o_no("¿Desea jugar una nueva partida?"):
             print("¡Hasta pronto!")
             return
-

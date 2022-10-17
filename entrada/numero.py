@@ -1,9 +1,3 @@
-"""
-Módulo que agrupa todas las funcionalidades
-que permiten pedir entrada de números
-"""
-
-
 import sys
 
 

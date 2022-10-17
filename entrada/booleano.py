@@ -1,8 +1,3 @@
-"""
-Módulo que agrupa todas las funcionalidades
-que permiten pedir una entrada cuya respuesta es VERDADERO/SI o FALSO/NO
-"""
-
 SI = ("s", "si", "y", "yes", "1")
 VERDADERO = ("v", "verdadero", "t", "true", "1")
 
